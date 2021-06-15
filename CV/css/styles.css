@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+header {
+    background-color: #E5E5E5; 
+    
+}
+
+header img {
+        display:block;
+        margin:auto;
+        }
+
+header .titulo h1{
+    background-color: rgba(196, 196, 196, 1);  
+    color: rgba(0, 86, 119, 1);
+    font-size: 35px;
+    letter-spacing: 5pt
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    max-width: 1041px;
+    margin: 50px auto; 
+}
+
+h2{
+    background-color: rgba(196, 196, 196, 1);
+    color: rgba(0, 86, 119, 1);
+    font-size: 20px;
+}
+
+
+.lista .fecha , .lista div{
+	display: inline-block;
+	vertical-align: top;
+    margin-bottom: 10px;
+    
+}
+
+.lista .fecha {
+	font-weight: bold;
+}
+
+
+footer{
+    background-color: rgba(0, 86, 119, 1);
+    color: rgba(255, 255, 255, 1);
+    max-width: 1440px;;
+    height: 37px;
+
+}
+
+footer  div {
+    margin-left: 45%;
+    padding-top:5px
+    }
+
