@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+div{
+    border: solid 3px red;
+}
+
+banner{
+    border: solid 3px  blue;
+}
+
+section {
+    border: solid 3px  green;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    position: relative;
+    width:100%;
+    height: 20px;
+}
+
+.left{
+    float: left;
+    padding-left: 90px;
+}
+.right{
+    float: right;
+    padding-right: 30px;
+}
+
+.right ul{
+    list-style-type: none;
+}
+
+.right li{
+    float: right;
+    margin-right: 3px;
+}
+/* header */
+
+.nav{
+    background-color: rgba(240, 168, 62, 1);
+    color: white;
+}
+
+
+/* main */
+
+
+
+
+/* footer */

@@ -1,0 +1,36 @@
+
+body{
+    backgound: #ffffff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+section.banner{
+    background-image: url(../img/lemonpie.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+section.banner ~ section{
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+i.fas{
+    color: grey
+}
