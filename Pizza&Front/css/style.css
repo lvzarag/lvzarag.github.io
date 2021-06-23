@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    font-family: font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
@@ -60,7 +59,6 @@ main{
 }
 
 .top{
-
     display: flex;
     flex-direction: row;
     flex-wrap: wap;
@@ -72,6 +70,7 @@ main{
 
 .envio{
     background-image:  url(../img/delivery.jpg);
+    background-size: cover;
     width: 490px;
     height: 350px;
 }
@@ -106,6 +105,20 @@ footer{
     align-items: center;
 }
 
-footer ul{
+.menu {
     list-style: none;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 5px;
 }
